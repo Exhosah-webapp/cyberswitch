@@ -1,0 +1,14 @@
+{
+  "name": "cyberswitch-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing site for the Cyberswitch app: static HTML, CSS and TypeScript.",
+  "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch",
+    "serve": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

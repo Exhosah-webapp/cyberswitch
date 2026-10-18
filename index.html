@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cyberswitch: crypto wallet, virtual cards and global payments</title>
+<meta name="description" content="Cyberswitch is an all-in-one wallet for secure crypto transactions, instant virtual cards, international transfers and gift cards.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" href="assets/img/logo-mark-black.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.className+=" js"</script>
+</head>
+<body class="dk">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-swap" viewBox="0 0 24 24"><path d="M7 7h11l-3-3M17 17H6l3 3"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 10h18M7 15h4"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-8-8-4z"/></symbol>
+<symbol id="i-bank" viewBox="0 0 24 24"><path d="M3 10 12 4l9 6M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/></symbol>
+<symbol id="i-people" viewBox="0 0 24 24"><circle cx="8" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M2 20c0-3 3-5 6-5s6 2 6 5M15 15c3 0 6 1.5 6 4.5"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></symbol>
+<symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="12" rx="2"/><path d="M12 9v12M3 13h18M12 9C9 9 7 8 7 6s3-3 5 3c2-6 5-5 5-3s-2 3-5 3"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+<symbol id="i-finger" viewBox="0 0 24 24"><path d="M12 11v3M8 14c0-3 1-5 4-5s4 2 4 5M5 12c0-5 3-8 7-8s7 3 7 8M9 20c1-1 2-3 2-5M15 20c0-2 0-3 1-5"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M17 7 7 17M15 17H7V9"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><path d="M12 4v12m-5-4 5 5 5-5M5 20h14"/></symbol>
+<symbol id="i-dots" viewBox="0 0 24 24"><circle cx="6" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></symbol>
+</defs></svg>
+<canvas id="bg" aria-hidden="true"></canvas>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="dk hero" id="top">
+ <div class="wrap">
+  <nav class="nav" aria-label="Primary">
+   <a class="lg" href="#top">Cyberswitch</a>
+   <ul><li><a href="#features">Features</a></li><li><a href="#how">How it works</a></li><li><a href="#security">Security</a></li><li><a href="#faq">FAQ</a></li></ul>
+   <a class="btn" href="https://play.google.com/store/apps/details?id=com.cyberswitch.app">Get the app</a>
+  </nav>
+  <div class="hero-grid">
+   <div>
+    <p class="eyebrow">Secure, Decentralized and free</p>
+    <h1>Your wallet.<span class="grad">Your control.</span></h1>
+    <p class="lede">Your all-in-one platform for secure crypto transactions, virtual cards and effortless payments.</p>
+    <div class="cta">
+     <a class="btn" href="https://play.google.com/store/apps/details?id=com.cyberswitch.app">Get it on Google Play</a>
+     <a class="btn ghost" href="#how">See how it works <svg class="ic" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+    </div>
+    <ul class="trust" aria-label="Highlights">
+     <li><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Encrypted in transit</li>
+     <li><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-finger"/></svg>Biometric sign-in</li>
+     <li><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Verification codes</li>
+    </ul>
+   </div>
+   <div class="stage" role="img" aria-label="Illustration of the Cyberswitch home screen: total asset, quick actions for buy, sell, swap and P2P, and a live market list.">
+    <div class="fl a"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Transfer sent</div>
+    <div class="fl b"><span>CYBERSWITCH</span><span>•••• •••• 4821</span></div>
+    <div class="phone">
+     <div class="p-top"><span>9:41</span><span>●●● ▮</span></div>
+     <div class="p-sr"><span>Search</span></div>
+     <div class="p-bal"><div><small>Total Asset</small><b>$12,534</b></div><span>Send</span></div>
+     <div class="acts">
+      <div><svg class="ic"><use href="#i-up"/></svg>Buy</div><div><svg class="ic"><use href="#i-down"/></svg>Sell</div><div><svg class="ic"><use href="#i-bank"/></svg>Account</div><div><svg class="ic"><use href="#i-bolt"/></svg>Utilities</div>
+      <div><svg class="ic"><use href="#i-swap"/></svg>Swap</div><div><svg class="ic"><use href="#i-in"/></svg>Deposit</div><div><svg class="ic"><use href="#i-people"/></svg>P2P</div><div><svg class="ic"><use href="#i-dots"/></svg>More</div>
+     </div>
+     <ul class="mk">
+      <li><span class="co"></span><p>Cyberswitch<small>CYS</small></p><p class="n d">▼ −0.172%<small>$85,966</small></p></li>
+      <li><span class="co" style="background:#e84142">▲</span><p>Avalanche<small>AVAX</small></p><p class="n u">▲ +0.34%<small>$85,966</small></p></li>
+      <li><span class="co" style="background:#4a5bf5">✕</span><p>XRP<small>XRP</small></p><p class="n u">▲ +0.34%<small>$85,966</small></p></li>
+      <li><span class="co" style="background:#8247e5">∞</span><p>Polygon<small>MATIC</small></p><p class="n d">▼ −0.172%<small>$85,966</small></p></li>
+     </ul>
+     <div class="tab"><span>Home</span><span>Cards</span><span>Swap</span><span>Account</span><span>Wallets</span></div>
+    </div>
+   </div>
+  </div>
+ </div>
+</header>
+
+<main id="main">
+<div class="wrap strip">
+ <div class="ticker" aria-hidden="true"><ul>
+  <li class="cn"><i style="background:#a85d00">₿</i>BTC</li><li class="cn"><i style="background:#4a5fd0">Ξ</i>ETH</li><li class="cn"><i style="background:#8a6b00">◆</i>BNB</li><li class="cn"><i style="background:#4a5bf5">✕</i>XRP</li><li class="cn"><i style="background:#2775ca">$</i>USDC</li><li class="cn"><i style="background:#8a7414">Ð</i>DOGE</li><li class="cn"><i style="background:#8247e5">∞</i>MATIC</li><li class="cn"><i style="background:#5f5f6b">Ł</i>LTC</li><li class="cn"><i style="background:#d03233">▲</i>AVAX</li><li class="cn"><i style="background:#a85d00">₿</i>BTC</li><li class="cn"><i style="background:#4a5fd0">Ξ</i>ETH</li><li class="cn"><i style="background:#8a6b00">◆</i>BNB</li><li class="cn"><i style="background:#4a5bf5">✕</i>XRP</li><li class="cn"><i style="background:#2775ca">$</i>USDC</li><li class="cn"><i style="background:#8a7414">Ð</i>DOGE</li><li class="cn"><i style="background:#8247e5">∞</i>MATIC</li><li class="cn"><i style="background:#5f5f6b">Ł</i>LTC</li><li class="cn"><i style="background:#d03233">▲</i>AVAX</li><li class="cn"><i style="background:#a85d00">₿</i>BTC</li><li class="cn"><i style="background:#4a5fd0">Ξ</i>ETH</li><li class="cn"><i style="background:#8a6b00">◆</i>BNB</li><li class="cn"><i style="background:#4a5bf5">✕</i>XRP</li><li class="cn"><i style="background:#2775ca">$</i>USDC</li><li class="cn"><i style="background:#8a7414">Ð</i>DOGE</li><li class="cn"><i style="background:#8247e5">∞</i>MATIC</li><li class="cn"><i style="background:#5f5f6b">Ł</i>LTC</li><li class="cn"><i style="background:#d03233">▲</i>AVAX</li><li class="cn"><i style="background:#a85d00">₿</i>BTC</li><li class="cn"><i style="background:#4a5fd0">Ξ</i>ETH</li><li class="cn"><i style="background:#8a6b00">◆</i>BNB</li><li class="cn"><i style="background:#4a5bf5">✕</i>XRP</li><li class="cn"><i style="background:#2775ca">$</i>USDC</li><li class="cn"><i style="background:#8a7414">Ð</i>DOGE</li><li class="cn"><i style="background:#8247e5">∞</i>MATIC</li><li class="cn"><i style="background:#5f5f6b">Ł</i>LTC</li><li class="cn"><i style="background:#d03233">▲</i>AVAX</li>
+ </ul></div>
+ <button class="mt" id="mt" type="button" aria-pressed="false"><svg class="ic ps" aria-hidden="true" focusable="false"><use href="#i-pause"/></svg><svg class="ic pl" aria-hidden="true" focusable="false"><use href="#i-play"/></svg>Pause motion</button>
+</div>
+
+<section class="scene" id="scene" aria-labelledby="h-scene">
+ <div class="pin">
+  <h2 class="sr" id="h-scene">How Cyberswitch fits into your day</h2>
+  <div class="wrap sgrid">
+   <div class="col">
+    <h3 class="tag">For everyday spending</h3>
+    <ul class="pts">
+     <li><i>01</i>Create a virtual card in seconds.</li>
+     <li><i>02</i>Shop on international websites.</li>
+     <li><i>03</i>Top up airtime and pay bills.</li>
+    </ul>
+   </div>
+   <div class="orb" aria-hidden="true"><span></span></div>
+   <div class="col">
+    <h3 class="tag">For moving money</h3>
+    <ul class="pts">
+     <li><i>04</i>Cash out crypto straight to your bank.</li>
+     <li><i>05</i>Send money abroad without heavy fees.</li>
+     <li><i>06</i>Trade peer to peer with other people.</li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="features" aria-labelledby="h-feat">
+ <div class="wrap">
+  <p class="eyebrow">Features</p>
+  <h2 id="h-feat">Everything between <span class="grad">crypto and cash.</span></h2>
+  <p class="lede">Swap digital assets, move money across borders and spend online from a single wallet.</p>
+  <ul class="bento">
+   <li class="card bg"><span class="chip"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-bank"/></svg></span><h3>Cash out to your bank</h3><p>Turn digital assets into local currency and send it straight to your bank account.</p><div class="vis"><div class="flow dk"><span>CYS</span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg><span>Bank account</span></div></div></li>
+   <li class="card bg"><span class="chip"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-card"/></svg></span><h3>Virtual cards in seconds</h3><p>Create a secure virtual debit card instantly and use it online, anywhere in the world.</p><div class="vis"><div class="stack" aria-hidden="true"><b></b><b></b><b></b></div></div></li>
+   <li class="card sm"><span class="chip"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-send"/></svg></span><h3>Low-cost transfers</h3><p>Send money across borders without heavy bank fees.</p></li>
+   <li class="card sm"><span class="chip"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-people"/></svg></span><h3>P2P trading</h3><p>Buy and sell crypto directly with other people.</p></li>
+   <li class="card sm"><span class="chip"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-bolt"/></svg></span><h3>Bills and airtime</h3><p>Top up airtime and pay everyday bills from your wallet.</p></li>
+   <li class="card sm"><span class="chip"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-gift"/></svg></span><h3>Gift cards</h3><p>Buy, sell and redeem popular global gift cards.</p></li>
+  </ul>
+ </div>
+</section>
+
+<section id="how" aria-labelledby="h-how" style="padding-top:0">
+ <div class="wrap demo">
+  <div>
+   <p class="eyebrow">How it works</p>
+   <h2 id="h-how">Get started in minutes.</h2>
+   <ol class="steps">
+    <li><div><b>Create your account</b>Sign up with your email.</div></li>
+    <li><div><b>Verify with a code</b>Enter the verification code we send you.</div></li>
+    <li><div><b>Set your password</b>Confirm it and you’re in.</div></li>
+    <li><div><b>Start moving money</b>Buy, sell, swap and spend from your home screen.</div></li>
+   </ol>
+  </div>
+  <figure class="vphone dk">
+   <video id="ob" src="assets/video/onboarding.mp4" muted loop playsinline autoplay width="480" height="1066" aria-describedby="ob-d"></video>
+   <figcaption class="sr" id="ob-d">Silent screen recording of the Cyberswitch onboarding flow. The steps are listed in text beside it.</figcaption>
+   <button class="pp" id="pp" type="button" aria-label="Pause onboarding video"><svg class="ic ps" aria-hidden="true" focusable="false"><use href="#i-pause"/></svg><svg class="ic pl" aria-hidden="true" focusable="false"><use href="#i-play"/></svg></button>
+  </figure>
+ </div>
+</section>
+
+<section id="screens" aria-labelledby="h-scr" style="padding-top:0">
+ <div class="wrap">
+  <p class="eyebrow">Inside the app</p>
+  <h2 id="h-scr">See it <span class="grad">up close.</span></h2>
+  <p class="lede">A few screens from Cyberswitch.</p>
+  <div class="shots">
+   <figure class="shot"><div class="fr"><img src="assets/img/screen-virtual-card.webp" width="480" height="1088" loading="lazy" alt="Virtual card screen with a blue card showing the Cyberswitch logo, expiry date and CVV, plus links to card details and other cards."></div><figcaption><b>Virtual card</b>View your card details and manage other available cards.</figcaption></figure>
+   <figure class="shot"><div class="fr"><img src="assets/img/screen-swap-currency.webp" width="480" height="1088" loading="lazy" alt="Manage cards screen listing USD, GBP and EUR balances with a list of latest transactions below."></div><figcaption><b>Swap currency</b>Hold USD, GBP and EUR, with your latest transactions below.</figcaption></figure>
+   <figure class="shot"><div class="fr"><img src="assets/img/screen-confirm-swap.webp" width="480" height="1039" loading="lazy" alt="Confirm swap screen for AVAX to XPR showing the chain, wallet and fee estimate above a Confirm button."></div><figcaption><b>Confirm a swap</b>Review the fee, chain and amounts before you confirm.</figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<section id="security" aria-labelledby="h-sec" style="padding-top:0">
+ <div class="wrap">
+  <div class="sec">
+   <p class="eyebrow">Security first</p>
+   <h2 id="h-sec">Your money, locked down.</h2>
+   <ul>
+    <li><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-lock"/></svg><b>Encrypted</b><span>Your data is encrypted in transit.</span></li>
+    <li><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-finger"/></svg><b>Verified sign-in</b><span>Verification codes and biometric login protect your account.</span></li>
+    <li><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-trash"/></svg><b>Your data, your call</b><span>You can request that your data be deleted.</span></li>
+   </ul>
+   <a class="btn light" href="https://play.google.com/store/apps/details?id=com.cyberswitch.app">Get the app</a>
+  </div>
+ </div>
+</section>
+
+<section id="faq" aria-labelledby="h-faq" style="padding-top:0">
+ <div class="wrap">
+  <p class="eyebrow">FAQ</p>
+  <h2 id="h-faq">Questions, answered.</h2>
+  <div class="faq">
+   <details><summary>What is Cyberswitch?</summary><p>Cyberswitch is a wallet and payments app that connects crypto and local currency, with transfers, virtual cards and gift cards in one place.</p></details>
+   <details><summary>Which devices does it run on?</summary><p>Cyberswitch is available on Google Play. Add other platforms here when they launch.</p></details>
+   <details><summary>Is Cyberswitch free?</summary><p>Add your fees and pricing here.</p></details>
+   <details><summary>What can I do with virtual cards?</summary><p>Generate a virtual debit card instantly to shop on international websites, subscribe to global services and manage your online spending.</p></details>
+   <details><summary>Is my data safe?</summary><p>Your data is encrypted in transit and the app uses verification codes and biometric sign-in. The privacy policy has the full details.</p></details>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="dk big-cta">
+ <div class="wrap">
+  <a class="lg" href="#top">Cyberswitch</a>
+  <h2>Ready to take <span class="grad">control?</span></h2>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.cyberswitch.app">Get it on Google Play</a>
+  <nav aria-label="Footer"><ul><li><a href="https://getcyberswitch.com/privacy-policy/">Privacy policy</a></li><li><a href="mailto:support@getcyberswitch.com">support@getcyberswitch.com</a></li><li><a href="https://getcyberswitch.com">getcyberswitch.com</a></li></ul></nav>
+  <small>© Cyberswitch Integrated Services Limited, 2026. All rights reserved.</small>
+ </div>
+</footer>
+
+
+
+<script src="js/shader.js" defer></script>
+<script src="js/ui.js" defer></script>
+<script src="js/webgl.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
